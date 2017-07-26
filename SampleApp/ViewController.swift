@@ -8,8 +8,30 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
+ 
+    
+    @IBOutlet weak var messageLabel: UILabel!
+    var dinosaur = false
+    
+    
+    
+    
+    @IBAction func ButtonPressed(_ sender: Any) {
+        
+        if dinosaur == false {
+        messageLabel.text = "We did it!"
+            dinosaur = true
+        } else {
+            messageLabel.text = "This is TinkerTech"
+            dinosaur = false
+        }
+        
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

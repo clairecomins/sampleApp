@@ -12,6 +12,7 @@
 		BE388BF61F293BDD00A699F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE388BF41F293BDD00A699F0 /* Main.storyboard */; };
 		BE388BF81F293BDD00A699F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE388BF71F293BDD00A699F0 /* Assets.xcassets */; };
 		BE388BFB1F293BDD00A699F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE388BF91F293BDD00A699F0 /* LaunchScreen.storyboard */; };
+		BE388C031F294AD000A699F0 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE388C021F294AD000A699F0 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BE388BF71F293BDD00A699F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE388BFA1F293BDD00A699F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE388BFC1F293BDD00A699F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE388C021F294AD000A699F0 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				BE388BF01F293BDD00A699F0 /* AppDelegate.swift */,
 				BE388BF21F293BDD00A699F0 /* ViewController.swift */,
 				BE388BF41F293BDD00A699F0 /* Main.storyboard */,
+				BE388C021F294AD000A699F0 /* TestViewController.swift */,
 				BE388BF71F293BDD00A699F0 /* Assets.xcassets */,
 				BE388BF91F293BDD00A699F0 /* LaunchScreen.storyboard */,
 				BE388BFC1F293BDD00A699F0 /* Info.plist */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					BE388BEC1F293BDD00A699F0 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XMAQ49YKED;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE388BF31F293BDD00A699F0 /* ViewController.swift in Sources */,
+				BE388C031F294AD000A699F0 /* TestViewController.swift in Sources */,
 				BE388BF11F293BDD00A699F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XMAQ49YKED;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TinkerTech.SampleApp;
@@ -272,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XMAQ49YKED;
 				INFOPLIST_FILE = SampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TinkerTech.SampleApp;
